@@ -18,7 +18,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App" onClick={selectLunch}>
       <h1>오늘 점심은 뭐 먹지</h1>
       <button onClick={selectLunch}>점심 메뉴 추천</button>
       {lunch && <h2>{lunch}</h2>}
