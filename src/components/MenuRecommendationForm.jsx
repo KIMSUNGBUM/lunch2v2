@@ -49,7 +49,7 @@ function MenuRecommendationForm() {
     }}>
       <h2>추천할 음식점</h2>
       <form
-        action="https://formspree.io/f/xgegvdpl"
+        action="https://formspree.io/f/mnjvyege"
         method="POST"
         onSubmit={handleSubmit}
         style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}
@@ -89,10 +89,10 @@ function MenuRecommendationForm() {
         </button>
 
         {submissionStatus === 'success' && (
-          <p style={{ color: 'green', fontWeight: 'bold' }}>메뉴 추천이 성공적으로 제출되었습니다! 감사합니다.</p>
+          <p style={{ color: 'green', fontWeight: 'bold' }}>음식점 추천이 성공적으로 제출되었습니다! 감사합니다.</p>
         )}
         {submissionStatus === 'error' && (
-          <p style={{ color: 'red', fontWeight: 'bold' }}>메뉴 추천 제출에 실패했습니다. 다시 시도해 주세요.</p>
+          <p style={{ color: 'red', fontWeight: 'bold' }}>음식점 추천 제출에 실패했습니다. 다시 시도해 주세요.</p>
         )}
       </form>
     </div>
