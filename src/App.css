@@ -56,13 +56,13 @@ button:hover {
 }
 
 .ad-banner {
-  background-color: #6ca0dc;
+  background-color: #66CDAA; /* Changed color for distinction */
   color: #fff;
   padding: 15px;
   margin-top: 30px;
   border-radius: 10px;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 0.9em; /* Reduced font size to fit on mobile */
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   white-space: nowrap;
   overflow: hidden;
