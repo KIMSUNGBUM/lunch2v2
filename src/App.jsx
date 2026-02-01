@@ -19,12 +19,21 @@ function App() {
 
   return (
     <div className="App" onClick={selectLunch}>
-      <h1>오늘 점심은 뭐 먹지</h1>
+      <h1 style={{fontSize: '2em'}}>오늘 점심 뭐 먹지</h1>
       <button onClick={selectLunch}>점심 메뉴 추천</button>
       {lunch && <h2>{lunch}</h2>}
 
       {/* Render the new MenuRecommendationForm component */}
       <MenuRecommendationForm />
+      <div style={{
+        backgroundColor: 'blue',
+        color: 'white',
+        padding: '10px',
+        marginTop: '20px',
+        textAlign: 'center'
+      }}>
+        양육비에 강한 법무법인 진성
+      </div>
     </div>
   );
 }
