@@ -11,7 +11,7 @@ body {
 
 .App {
   min-height: 100vh;
-  padding: 2vh 0;
+  padding-top: 2rem;
 }
 
 .container {
@@ -57,7 +57,7 @@ button:hover {
 
 .ad-banner {
   background-color: #66CDAA; /* Changed color for distinction */
-  color: #fff;
+  color: #00008B;
   padding: 15px;
   margin-top: 30px;
   border-radius: 10px;
