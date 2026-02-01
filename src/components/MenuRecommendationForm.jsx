@@ -47,15 +47,15 @@ function MenuRecommendationForm() {
       borderRadius: '8px',
       boxShadow: '0 2px 10px rgba(0,0,0,0.1)'
     }}>
-      <h2>추천 메뉴 제안</h2>
+      <h2>추천할 음식점</h2>
       <form
-        action="https://formspree.io/f/mnjvyege"
+        action="https://formspree.io/f/xgegvdpl"
         method="POST"
         onSubmit={handleSubmit}
         style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}
       >
         <label htmlFor="menu_item" style={{ fontSize: '1.1em', color: '#333' }}>
-          추천하고 싶은 메뉴를 적어주세요:
+          추천하고 싶은 음식점을 적어주세요:
         </label>
         <input
           type="text"
@@ -68,7 +68,7 @@ function MenuRecommendationForm() {
             borderRadius: '4px',
             fontSize: '1em'
           }}
-          placeholder="예: 김치찌개, 불고기덮밥"
+          placeholder="예: 일식집, 파파이스"
         />
         
         <button
@@ -85,7 +85,7 @@ function MenuRecommendationForm() {
             transition: 'background-color 0.3s ease'
           }}
         >
-          {submissionStatus === 'submitting' ? '제출 중...' : '메뉴 추천하기'}
+          {submissionStatus === 'submitting' ? '제출 중...' : '추천하기'}
         </button>
 
         {submissionStatus === 'success' && (
