@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 
 function MenuRecommendationForm() {
@@ -39,7 +40,7 @@ function MenuRecommendationForm() {
 
   return (
     <div style={{
-      maxWidth: '500px',
+      maxWidth: '400px',
       margin: '40px auto',
       padding: '20px',
       border: '1px solid #ccc',

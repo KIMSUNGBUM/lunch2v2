@@ -18,10 +18,10 @@ function App() {
   };
 
   return (
-    <div className="App" onClick={selectLunch}>
+    <div className="App" style={{ maxWidth: '600px', margin: 'auto', padding: '20px' }} onClick={selectLunch}>
       <h1 style={{fontSize: '2em'}}>오늘 점심 뭐 먹지</h1>
-      <button onClick={selectLunch}>점심 메뉴 추천</button>
-      {lunch && <h2>{lunch}</h2>}
+      <button onClick={selectLunch} style={{ fontSize: '1.5em', padding: '15px 30px' }}>점심 메뉴 추천</button>
+      {lunch && <h2 style={{ fontSize: '2.5em', marginTop: '20px' }}>{lunch}</h2>}
 
       {/* Render the new MenuRecommendationForm component */}
       <MenuRecommendationForm />
