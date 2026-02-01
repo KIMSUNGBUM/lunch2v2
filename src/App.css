@@ -4,14 +4,14 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  background: linear-gradient(to right, #4facfe, #00f2fe);
   color: #fff;
   margin: 0;
 }
 
 .App {
   min-height: 100vh;
-  padding: 2vh 0; /* Further move box up, remove horizontal padding */
+  padding: 2vh 0;
 }
 
 .container {
@@ -20,19 +20,19 @@ body {
   padding: 2em;
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
   max-width: 600px;
-  width: calc(100% - 2em); /* Create 1em space on left/right */
+  width: calc(100% - 2em);
   text-align: center;
-  margin: 0 auto; /* Center the container */
+  margin: 0 auto;
 }
 
 h1 {
-  font-size: 2.2em; /* Further reduced size to fit in one line */
+  font-size: 2.1em; /* Reduced size by 30% */
   text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 button {
   background: #fff;
-  color: #ff7e5f;
+  color: #4facfe;
   border: none;
   padding: 15px 30px;
   font-size: 1.5em;
@@ -43,7 +43,7 @@ button {
 }
 
 button:hover {
-  background: #ff7e5f;
+  background: #4facfe;
   color: #fff;
   box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
@@ -64,4 +64,7 @@ button:hover {
   text-align: center;
   font-size: 1.2em;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
