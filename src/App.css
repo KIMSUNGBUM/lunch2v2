@@ -1,18 +1,59 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: #fff;
+}
+
 .App {
   text-align: center;
-  margin-top: 100px;
+  padding: 2em;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 2em;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 16px;
+  background: #fff;
+  color: #ff7e5f;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.5em;
+  border-radius: 50px;
   cursor: pointer;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  background-color: #f0f0f0;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
-h2 {
+button:hover {
+  background: #ff7e5f;
+  color: #fff;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.lunch-result {
+  margin-top: 40px;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  color: #fff;
+}
+
+.ad-banner {
+  background-color: #6ca0dc;
+  color: #fff;
+  padding: 15px;
   margin-top: 30px;
-  color: #333;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }

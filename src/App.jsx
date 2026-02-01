@@ -18,21 +18,15 @@ function App() {
   };
 
   return (
-    <div className="App" style={{ maxWidth: '600px', margin: 'auto', padding: '20px' }} onClick={selectLunch}>
-      <h1 style={{fontSize: '2em'}}>오늘 점심 뭐 먹지</h1>
-      <button onClick={selectLunch} style={{ fontSize: '1.5em', padding: '15px 30px' }}>랜덤 추천</button>
-      {lunch && <h2 style={{ fontSize: '2.5em', marginTop: '20px' }}>{lunch}</h2>}
-
-      {/* Render the new MenuRecommendationForm component */}
-      <MenuRecommendationForm />
-      <div style={{
-        backgroundColor: 'blue',
-        color: 'white',
-        padding: '10px',
-        marginTop: '20px',
-        textAlign: 'center'
-      }}>
-        양육비에 강한 법무법인 진성
+    <div className="App">
+      <div className="container">
+        <h1>오늘 점심 뭐 먹지</h1>
+        <button onClick={selectLunch}>랜덤 추천</button>
+        {lunch && <h2 className="lunch-result">{lunch}</h2>}
+        <MenuRecommendationForm />
+        <div className="ad-banner">
+          양육비에 강한 법무법인 진성
+        </div>
       </div>
     </div>
   );
